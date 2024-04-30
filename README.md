@@ -24,19 +24,31 @@
 
 Представим, что у нас есть директория /home/user/Documents с такой структурой:
 /home/user/Documents/
+
 ├── report.txt
+
 ├── data.csv
+
 └── notes/
+
     ├── meeting_notes.txt
+
     └── ideas.txt
+    
 
 
 Запуск скрипта для копирования файлов из /home/user/Documents в /home/user/Backup выглядел бы так:
 ./bash_script.sh /home/user/Documents /home/user/Backup/
 
 После выполнения скрипта структура целевой директории /home/user/Backup может выглядеть так:
+
 /home/user/Backup/
+
 ├── report.txt
+
 ├── data.csv
+
 ├── meeting_notes.txt
+
 ├── ideas.txt
+
